@@ -1,0 +1,22 @@
+server:
+  port: 8099
+
+# mysql
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    #MySQL配置
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.99.100:3306/ssm?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  resources:
+    static-locations: classpath:/static/,classpath:/views/
+
+mybatis:
+  mapperLocations: classpath:mapper/**/*.xml
