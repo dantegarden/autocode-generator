@@ -23,7 +23,7 @@
         <mybatisplus.version>3.1.0</mybatisplus.version>
         <commons-lang.version>2.6</commons-lang.version>
         <commons-lang3.version>3.1</commons-lang3.version>
-        <commons.io.version>2.5</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <commons.configuration.version>1.10</commons.configuration.version>
         <pagehelper.spring.boot.version>1.2.5</pagehelper.spring.boot.version>
